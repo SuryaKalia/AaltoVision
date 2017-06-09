@@ -1,12 +1,8 @@
-This code was used to test DeMoN on RGB-D Dataset 7-Scenes (https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
-The default example in original repo gives a depthmap png file as output. For greater usability it is modified to output the rotation and translation vecors between the given image pairs
+Input image is set to be Floor 3 of the CS building in the default code.
+In the GUI, pan is using the scroll bars at the top. Zooming is by right click drag up/down.
+Left click marks the label points on the map
+ESC - to exit without saving
+s - to save and exit
 
-To use this code:
-1. Install DeMoN (https://github.com/lmb-freiburg/demon)
-2. Merge these files with demon/examples/
-3. Extract 7 Scenes dataset to the same directory with the scene directories labelled from 0 to 6.
-  (eg. of a file in directory : /demon/examples/0/seq-02/frame-000000.color.png)
-4. The input pairs are specified in NN_test_pairs.txt
-5. run python3 example_edit.py
 
-Output is a 7*1 vector containing the quaternion (format - real, x, y, z) and the translation vector (x, y, z) 
+Output is marked.png - The image file with marked labels and coordinates.txt which has 3 columns. First 2 indicate y,x coordinate of the respective point on the map and the 3rd label indicates the distance on the ground between the given point and the successive label point.
