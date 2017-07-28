@@ -10,6 +10,8 @@ The first step in dataset creation is marking points on the floorplan which woul
 
 **Output:** "marked.jpg" file with chosen points labelled and marked on the floorplan. "coordinates.txt" file with pixel coordinates (y,x) and ground distance in metres between the given point and successive labelled point.
 
+![Alt text](https://github.com/AaltoVision/indoorLocalization/blob/master/Part1/label_animation.gif)
+
 * Input image is set to be Floor 3 of the CS building in the default code.
 * In the GUI, panning is using the scroll bars at the top. Zooming is by right click drag up/down.
 * Left click marks the label points on the map
