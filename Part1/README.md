@@ -24,3 +24,5 @@ The last step after creating the dataset is to visualise the camera centre traje
 **Input:** MAT file(s) of the dataset odometry. (Format of *University* dataset). jpg image of floor plan.
 
 **Output:** jpg file of floorplan with camera centre trajectories superimposed.
+
+[[https://github.com/AaltoVision/indoorLocalization/blob/master/Part1/plot_overlap_image.jpg]]
