@@ -73,7 +73,7 @@ class PanZoomWindow(object):
                 font = cv2.FONT_HERSHEY_SIMPLEX
                 cv2.putText(self.img,str(label),(coordsInFullImage[1],coordsInFullImage[0] - 10), font, 1,(255,255,0),2)
 
-                cv2.imshow("img",self.img)
+                #cv2.imshow("img",self.img)
                 #self.img[y-30:y+30,x-30:x+30] = [255,255,255]
                 #print "this pixel holds ",self.img[coordsInFullImage[0],coordsInFullImage[1]]
                 if self.onLeftClickFunction is not None:
