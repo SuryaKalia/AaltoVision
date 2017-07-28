@@ -159,7 +159,7 @@ if __name__ == "__main__":
             fp.write("%d %d " % (obj[0],obj[1]))
             if index < (l-1):
                 next_ = y_x_coord[index + 1]
-                displacement = (math.sqrt((obj[0] - next_[0])**2 + (obj[1] - next_[1])**2))*0.033917
+                displacement = (math.sqrt((obj[0] - next_[0])**2 + (obj[1] - next_[1])**2))*0.033917 # scaling factor may vary for differnt maps
                 fp.write("%f m\n" % displacement)
 
 
