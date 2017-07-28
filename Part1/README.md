@@ -10,7 +10,7 @@ The first step in dataset creation is marking points on the floorplan which woul
 
 **Output:** "marked.jpg" file with chosen points labelled and marked on the floorplan. "coordinates.txt" file with pixel coordinates (y,x) and ground distance in metres between the given point and successive labelled point.
 
-![Alt text](https://github.com/AaltoVision/indoorLocalization/blob/master/Part1/label_animation.gif)
+![label_animation](https://github.com/AaltoVision/indoorLocalization/blob/master/Part1/label_animation.gif)
 
 * Input image is set to be Floor 3 of the CS building in the default code.
 * In the GUI, panning is using the scroll bars at the top. Zooming is by right click drag up/down.
@@ -25,4 +25,4 @@ The last step after creating the dataset is to visualise the camera centre traje
 
 **Output:** jpg file of floorplan with camera centre trajectories superimposed.
 
-[[https://github.com/AaltoVision/indoorLocalization/blob/master/Part1/plot_overlap_image.jpg]]
+![plot_overlap_image](https://github.com/AaltoVision/indoorLocalization/blob/master/Part1/plot_overlap_image.jpg)
