@@ -2,6 +2,7 @@
 import cv2
 import numpy as np
 import math
+import datetime
 label = 0
 y_x_coord = []
 
@@ -146,11 +147,11 @@ if __name__ == "__main__":
     if k == 27:         # wait for ESC key to exit
         cv2.destroyAllWindows()
     elif k == ord('s'): # wait for 's' key to save and exit
-        cv2.imwrite('marked.jpg',myImage)
+        cv2.imwrite('marked_'+datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")+'.jpg',myImage)
 
         # for itr in y_x_coord:
             # print itr
-        fp = open("coordinates.txt", "w")
+        fp = open("coordinates_"+datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")+".txt", "w")
 
         l=len(y_x_coord)
         next_ = None
