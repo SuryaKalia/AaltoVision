@@ -19,3 +19,9 @@ Specify the required directory paths in try_optimization.m
   
   4. *Complete Optimization* - Both absolute and relative rotation and translation constraints applied.
 
+### Uncorrected point cloud: 
+![Uncorrected](https://github.com/AaltoVision/indoorLocalization/blob/master/Part4/uncorrected.jpg)
+
+### Corrected point cloud:
+![Corrected](https://github.com/AaltoVision/indoorLocalization/blob/master/Part4/corrected.jpg)
+(Colouring gradient misinterpreted by plotting function)
