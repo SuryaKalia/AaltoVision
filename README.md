@@ -11,7 +11,7 @@ Relative Pose estimation - Using DeMoN: Depth and Motion Network for Learning Mo
 [**Part_3:**](https://github.com/AaltoVision/indoorLocalization/tree/master/Part3)
 Automated Dataset Generation - This tool is meant to simplify the process of creating indoor localization datasets using a Google Tango device for odometry and Point Clouds and iPhone for hi-res RGB images mounted together.
 
-[**Part_4:**](https://github.com/AaltoVision/indoorLocalization/tree/master/Par4)
+[**Part_4:**](https://github.com/AaltoVision/indoorLocalization/tree/master/Part4)
 Odometry Correction - For correcting the raw Tango odometry using Pose Graph optimization for loop closure. Anchor points are chosen from the floorplan (Part_1) which serve as absolute Ground truths for correcting the complete path.
 
 Deatiled installation and usage instructions are given separetely for each part.
