@@ -21,3 +21,5 @@ Deatiled installation and usage instructions are given separetely for each part.
 * Zakaria Laskar - Supervisor
 * Juho Kannala - Professor
 
+Computer Vision Lab, Aalto Univesity, Espoo, Finland.
+
