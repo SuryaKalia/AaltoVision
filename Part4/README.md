@@ -1,5 +1,5 @@
 # Odometry Correction 
-For correcting the raw Tango odometry using Pose Graph optimization for loop closure. Anchor points are chosen from the floorplan ([Part_1](https://github.com/AaltoVision/indoorLocalization/tree/master/Part2)) which serve as absolute Ground truths for correcting the complete path.
+For correcting the raw Tango odometry using Pose Graph optimization for loop closure. Anchor points are chosen from the floorplan ([Part_1](https://github.com/SuryaKalia/AaltoVision/tree/master/Part1)) which serve as absolute Ground truths for correcting the complete path.
 
 The few absolute ground truth points are used for correcting the open loops. Preferably the dataset must have repeated instances of the same anchor point for better correction.
 Translation ground truths are easily obtained by PART_1 but Orientation ground truths need to be calculated manually by calculating the slopes of the pose normals with respect to the floor plan.
@@ -20,8 +20,8 @@ Specify the required directory paths in try_optimization.m
   4. *Complete Optimization* - Both absolute and relative rotation and translation constraints applied.
 
 ### Uncorrected point cloud: 
-![Uncorrected](https://github.com/AaltoVision/indoorLocalization/blob/master/Part4/uncorrected.jpg)
+![Uncorrected](https://github.com/SuryaKalia/AaltoVision/blob/master/Part4/uncorrected.jpg)
 
 ### Corrected point cloud:
-![Corrected](https://github.com/AaltoVision/indoorLocalization/blob/master/Part4/corrected.jpg)
+![Corrected](https://github.com/SuryaKalia/AaltoVision/blob/master/Part4/corrected.jpg)
 (Colouring gradient misinterpreted by plotting function)
